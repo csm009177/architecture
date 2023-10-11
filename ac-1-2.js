@@ -10,4 +10,4 @@ const _pokemon = require('pokemon');
  * 처음에는 불편하지만, 애플리케이션의 규모가 커질수록
  * '분류관리'가 매우 중요하다
  */
-module.export = _pokemon.all('ko');
+module.exports = _pokemon.all('ko');
