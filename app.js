@@ -26,20 +26,7 @@ import createTeams from './module/createTeams.js'
  * @exports teams
  */
 
-<<<<<<< HEAD
-console.log(studentList.length);
-function shuffleArray(array) {
-  for(let i = array.length - 1; i>0; i--) {
-      const j = Math.floor(Math.random()*(i+1));
-      [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
-
-// 배열 셔플
-=======
 const studentList = readAndParseJson('data/studentList.json');
->>>>>>> 4e3ca52122f046216506769cbe5bde9348106224
 const shuffledArray = shuffleArray(studentList);
 const teams = createTeams(shuffleArray, true);
 
