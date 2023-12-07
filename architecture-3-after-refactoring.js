@@ -16,8 +16,8 @@ import path from 'path';
 
 // custom module
 import shuffleArray from './module/shuffleArray.js';
-import readAndParseJson from './module/readAndParseJson.js'
-import createTeams from './module/createTeams.js'
+import readAndParseJson from './module/readAndParseJson.js';
+import createTeams from 'module/createTeams.js'
 
 /**
  * 학생 목록을 셔플하고, 팀을 생성합니다
